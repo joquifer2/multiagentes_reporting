@@ -1,0 +1,20 @@
+# Archivos sensibles
+.env
+credentials.json
+
+# Entorno virtual
+venv/
+
+# Carpetas generadas automáticamente por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Archivos de configuración de IDE (opcional)
+.vscode/
+.idea/
+
+# Otros ficheros que no queremos versionar (si los hubiera)
+*.log
