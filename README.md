@@ -58,22 +58,23 @@ El sistema opera a través de varios **agentes especializados**, orquestados med
 
 ## 🗂️ Estructura del Proyecto
 
+```bash
 multiagentes_reporting/
 │
-├── agents/ # Agentes inteligentes
-│ ├── consultor.py # TaskManager: interpreta la solicitud del usuario
-│ ├── data_wrangler.py # DataWrangler: extracción de datos desde BigQuery
-│ ├── meta_specialist.py# MetaSpecialist: análisis de datos publicitarios
-│ └── account_manager.py# AccountManager: generación de recomendaciones
+├── agents/               # Agentes inteligentes
+│   ├── consultor.py      # TaskManager: interpreta la solicitud del usuario
+│   ├── data_wrangler.py  # DataWrangler: extracción de datos desde BigQuery
+│   ├── meta_specialist.py# MetaSpecialist: análisis de datos publicitarios
+│   └── account_manager.py# AccountManager: generación de recomendaciones
 │
-├── app.py # Aplicación principal en Streamlit
-├── main.py # Ejecución principal del pipeline completo
-├── config.py # Configuración general del sistema
-├── credentials.json # Credenciales de Google Cloud (excluidas de Git)
-├── .env # Variables de entorno (API keys, credenciales)
-├── .gitignore # Exclusión de archivos sensibles
-├── requirements.txt # Dependencias de Python
-└── README.md # Documentación del proyecto
+├── app.py                # Aplicación principal en Streamlit
+├── main.py               # Ejecución principal del pipeline completo
+├── config.py             # Configuración general del sistema
+├── credentials.json      # Credenciales de Google Cloud (excluidas de Git)
+├── .env                  # Variables de entorno (API keys, credenciales)
+├── .gitignore            # Exclusión de archivos sensibles
+├── requirements.txt      # Dependencias de Python
+└── README.md             # Documentación del proyecto
 
 
 ---
